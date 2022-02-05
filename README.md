@@ -1,10 +1,6 @@
 # just-tech-news
 ## Description
-🔍This project is a full stack application and is CMS style blog. This application utilized ORM AND MVC. 
-
-## Technologies 
-  Node, Sequelize, Express, and mySQL.
-  This project connects the View and the Models through controller routes.
+This application creates the database and back-end structure for a news aggregate site called "Just Tech News," where a user can add articles, as well as comment, and vote on them.
 
 ## Table of Contents
   * [Description](#description)
@@ -15,6 +11,16 @@
   * [Deployment](#deployment)
   * [Contribution](#contribution)
 
+## Technologies
+    JavaScript ES6
+    Node.js
+    Express.js
+    dotenv (npm package used to store environmental variables used in a project locally so sensitive data like root passwords are not exposed on GitHub)
+    MySQL
+    Sequelize (npm package for integrating MySQL and Node.js)
+    bcrypt (npm package for password hashing)
+    handlebars (npm package for a template engine used for html and javascript integration on the front-end)
+    Heroku
 
 ## Installation
 The user should clone the repository from GitHub. This application requires Node.js, Express.js, and Sequelize. To connect to the database run mysql -u root -p and enter password from .env file. Then source the schema.sql. To seed the file run npm run seed. Finally to connect to the server run npm start.
